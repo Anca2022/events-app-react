@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.homepage{
+    header{
+        padding-top:44px;
+        width: 89%;//383px;
+        margin: 0 auto;
+        nav{
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+            align-items: center;
+            filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            span{
+               font-size: 18px;
+            }
+        }
+        .input-div{
+            background-color: white;
+            width: 312px;
+            height:38px;
+            margin: 32px auto 41px auto;
+            border-radius:2rem;
+            color: #868F9B;
+            filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            display:flex;
+            flex-direction:row;
+            justify-content: start;
+            align-items: center;
+            padding: 0 0.8rem;
+            input{
+                border:none; 
+                outline:none;
+                font-size: 18px;
+                font-family: Lato, sans-serif;
+                margin-left:8px;
+                &::placeholder{
+                    color:#868F9B;
+                }   
+            }
+           
+        }
+    }   
+}
