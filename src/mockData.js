@@ -61,12 +61,6 @@ export const upcomingEvents=[
         title:'Annual Charity Gala', 
         image: './assets/charity-mobile.jpg', 
         date: 'October 30, 2024'
-    }, 
-    {
-        id:4,
-        title:'Annual Charity Gala', 
-        image: './assets/charity-mobile.jpg', 
-        date: 'October 30, 2024'
     }
 ];
 

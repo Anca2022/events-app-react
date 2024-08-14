@@ -5,6 +5,9 @@
   width: 89%;
   margin: 0 auto;
 }
+.homepage header svg {
+  cursor: pointer;
+}
 .homepage header nav {
   display: flex;
   flex-direction: row;

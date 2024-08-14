@@ -6,6 +6,9 @@
         padding-top:44px;
         width: 89%;//383px;
         margin: 0 auto;
+        svg{
+            cursor: pointer;
+        }
         nav{
             display: flex;
             flex-direction:row;
@@ -39,7 +42,40 @@
                     color:#868F9B;
                 }   
             }
-           
         }
     }   
+    // .main-section{
+        //         .subheader{
+    
+    //         }
+    //     .categories{
+
+    //         .caterogy-tags{
+    
+    //         }
+    //         .current-events-container{
+    //             .event-card{
+    
+    //             }
+    //         }
+    //     }
+    //     .upcoming{
+    //      . upcoming-subheader{}
+            // .upcoming-events-container{
+            //     .upcoming-event-card{
+
+            // }
+            // }
+    
+    //     }
+    //     .top-events{
+    //         .top-event-card{
+
+    //         }
+    //     }
+    // }
+    // .footer-nav{
+
+    // }
+   
 }

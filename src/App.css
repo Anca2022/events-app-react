@@ -3,4 +3,9 @@
   background-image: radial-gradient(circle at 50% -70%, var(--primary) 30%, var(--black), var(--black));
   color: white;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }/*# sourceMappingURL=App.css.map */

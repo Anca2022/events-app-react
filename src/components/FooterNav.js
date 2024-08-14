@@ -1,6 +1,6 @@
 export default function FooterNav() {
     return (
-        <footer>
+        <footer className="footer-nav">
             footer nav here
         </footer>
     );
