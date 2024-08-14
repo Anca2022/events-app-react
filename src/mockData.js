@@ -1,4 +1,4 @@
-export const categories = ['all', 'theatre', 'celebrations', 'art exhibitions']; 
+export const categories = ['all', 'theatre', 'celebrations', 'art exhibitions', 'other']; 
 export const currentEvents = [
     {
         id:1, 
@@ -74,6 +74,16 @@ export const topEvents=[
         id:2, 
         title:`Valentine's day romantic dinner`, 
         image:'./assets/valentine-mobile.jpg'
+    },
+    {
+        id:3, 
+        title:`Cultural Heritage Day`, 
+        image:'./assets/heritage-mobile.jpg'
+    },
+    {
+        id:4, 
+        title:`Autumn Film Gala`, 
+        image:'./assets/film-mobile.jpg'
     }
 ]
 

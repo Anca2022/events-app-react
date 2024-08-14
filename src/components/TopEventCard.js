@@ -1,7 +1,10 @@
-export default function TopEventCard({event}){
+export default function TopEventCard({event:{title, image}}){
     return(
         <article className="top-event-card">
-            {event.title}
-        </article>
+            <div className='top-events-image'>
+                <img src={image} alt={title}></img>
+            </div>
+            <p>{title}</p>
+        </article> 
     )
 };

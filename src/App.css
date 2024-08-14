@@ -1,6 +1,6 @@
 .App {
-  height: 100vh;
-  background-image: radial-gradient(circle at 50% -70%, var(--primary) 30%, var(--black), var(--black));
+  min-height: 100vh;
+  background-image: radial-gradient(circle at 50% -80%, var(--primary) 40%, var(--black) 60%, var(--black));
   color: white;
   text-align: center;
 }

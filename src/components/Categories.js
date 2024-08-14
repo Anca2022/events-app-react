@@ -12,13 +12,13 @@ export default function Categories({toTitleCase}){
             <div className='subheader'> 
                 <div>Categories</div>
                 <div>
-                    <span>See all </span>
+                    <span>See all</span>
                     <Right/>
                 </div>
             </div>
             <div className='category-tags'>
                 {
-                    categ.map(category => <span key={category}>{toTitleCase(category)}</span>)
+                    categ.map(category => <span key={category} className={category==='celebrations'? 'reversed':null}>{toTitleCase(category)}</span>)
                 }
             </div>
             <div className='current-events-container'>

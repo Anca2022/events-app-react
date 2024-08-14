@@ -8,7 +8,7 @@ export default function Upcoming({toTitleCase}){
     return(
         <section className="upcoming">
            <div className="upcoming-subheader">Upcoming</div>
-           <div className='upcoming-events-container'>
+           <div className='upcoming-events-container'> 
             {
                 upcomingEv.map(event=><UpcomingEventCard key={event.id} event={event}/>)
             }

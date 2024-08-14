@@ -10,7 +10,7 @@ export default function TopEvents({toTitleCase}){
             <div className="subheader">
                 <div>Top Events</div>
                 <div>
-                    <span>See all </span>
+                    <span>See all</span> 
                     <Right/>
                 </div> 
             </div>
