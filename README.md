@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Eventopia React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eventopia is a dynamic event discovery application built with React. It features a responsive design that ensures a seamless experience across both mobile and desktop devices. Users can effortlessly explore a wide range of events, from themed parties and holiday specials to art festivals.
 
-## Available Scripts
+The application boasts a modern, intuitive interface, thoughtfully designed by <b>Simona Varga</b> in Figma (check <a href='https://www.linkedin.com/in/simona-varga/' target="_blank">LinkedIn</a> or <a href='https://www.figma.com/design/e0HAqrv2G9j1tkK6uXCjnb/Portfolio?node-id=0-1&t=MSaO8Z2cmlVOP8Ch-0' target="_blank">Figma </a> profile). 
 
-In the project directory, you can run:
+For smooth animations and transitions, Eventopia leverages the power of the Framer Motion library, enhancing the user experience with fluid and engaging interactions.
 
-### `npm start`
+##
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Eventopia homepage mobile](https://github.com/user-attachments/assets/6821d3d2-cfcc-428b-9af6-fe876bb0ee42)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visit the Eventopia website at https://eventopia-app.netlify.app/ . 
 
-### `npm test`
+## Technologies Used
+<b>React </b>: A JavaScript library for building user interfaces.  <br>
+<b>Framer Motion </b>: A popular animation library for React, Framer Motion is used to create smooth and visually appealing animations and transitions within the application.  <br>
+<b>Figma </b>: A collaborative design tool used for creating the application's user interface.  <br>
+<b>JavaScript</b>: The programming language used for app functionality.<br>
+<b>SCSS </b>: For styling the application.<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## How to Run
+- Clone this repository.
+- Navigate to the project directory.
+- Install dependencies using npm install.
+- Run the application using npm start.
+- Access the application in your browser at http://localhost:3000/ .
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 
+Thank you for checking Eventopia App! If you have any questions or feedback, feel free to reach out. Happy coding!
