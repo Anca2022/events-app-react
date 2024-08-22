@@ -50,6 +50,7 @@
   padding-left: 16px;
   font-size: 16px;
   font-weight: 400;
+  padding-bottom: 93px;
 }
 .homepage .main-section .subheader {
   padding-right: 16px;
@@ -214,4 +215,73 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
+}
+.homepage .footer-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 93px;
+  background-color: var(--black);
+}
+.homepage .footer-nav ul {
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-top: 18px;
+  padding: 0 52.5px;
+  height: 75px;
+  border-radius: 1.5rem;
+}
+.homepage .footer-nav ul li {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+  position: relative;
+  cursor: pointer;
+}
+.homepage .footer-nav ul li .clicked {
+  position: absolute;
+  top: -40px;
+  width: 79px;
+  height: 79px;
+  background-color: #EFDADA;
+  border-radius: 50%;
+  border: 11.5px solid var(--black);
+}
+.homepage .footer-nav ul li .clicked::before, .homepage .footer-nav ul li .clicked::after {
+  content: "";
+  position: absolute;
+  top: 19.5px;
+  width: 15px;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 0 100% 0 0;
+  box-shadow: 1px -12px var(--black);
+}
+.homepage .footer-nav ul li .clicked::before {
+  left: -24px;
+}
+.homepage .footer-nav ul li .clicked::after {
+  right: -24px;
+  transform: rotateY(180deg);
+}
+.homepage .footer-nav ul li .footer-btn {
+  width: 18px;
+  height: 18px;
+  z-index: 2;
+}
+.homepage .footer-nav ul li .footer-btn-clicked {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  color: var(--primary);
+  transition: color 0.5s ease-in;
 }/*# sourceMappingURL=HomepageCss.css.map */
