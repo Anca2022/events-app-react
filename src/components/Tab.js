@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 
 export default function Tab({name, activeTab, setSelected}){
     const imageFn = ()=>{
-        console.log('function rendered');
         switch (name) {
         case 'favorite': 
             return <Favorite/>; 

@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .homepage{
+    max-width:600px;
+    margin: 0 auto;
     header{
         padding-top:44px;
         width: 89%;//383px;
@@ -218,6 +220,7 @@
         position:fixed;
         bottom:0;
         width:100%;
+        max-width:600px;
         height:93px;
         background-color: var(--black);
         ul{
@@ -269,14 +272,18 @@
                     }
                 }
                 .footer-btn{
-                    width:18px;
-                    height:18px;
+                    width:19px;
+                    height:19px;
+                    display:flex;
+                    flex-direction:row;
+                    justify-content: end;
+                    align-items:center;
                     z-index: 2;
                 }
                 .footer-btn-clicked{
                     position:absolute; 
-                    top:-10px;
-                    left:20px;
+                    top:-9px;
+                    left:19px;
                     color:var(--primary);
                     transition: color 0.5s ease-in;
                 }
