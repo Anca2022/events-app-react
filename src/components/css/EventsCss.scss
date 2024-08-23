@@ -11,6 +11,9 @@
             justify-content: space-between;
             align-items: center;
             padding:44px 24px 0 24px;
+            svg{
+                cursor: pointer;
+            }
         }
         .event-header-btns-right{
             display:flex;

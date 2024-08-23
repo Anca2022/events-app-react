@@ -12,6 +12,9 @@
   align-items: center;
   padding: 44px 24px 0 24px;
 }
+.event-page .event-header .event-header-btns svg {
+  cursor: pointer;
+}
 .event-page .event-header .event-header-btns-right {
   display: flex;
   flex-direction: row;
