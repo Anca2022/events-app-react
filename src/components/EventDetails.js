@@ -1,7 +1,11 @@
+import EventDetailsHeader from "./EventDetailsHeader";
+import EventDetailsContent from "./EventDetailsContent";
+import './css/EventsCss.css'
 export default function EventDetails() {
     return (
-        <div>
-            This is event details page
+        <div className="event-page">
+            <EventDetailsHeader/>
+            <EventDetailsContent />
         </div>
     );
 }
